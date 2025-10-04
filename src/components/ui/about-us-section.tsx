@@ -12,7 +12,6 @@ import {
   Shovel,
   Award,
   Users,
-  Calendar,
   CheckCircle,
   Sparkles,
   Star,
@@ -29,7 +28,6 @@ import {
 } from "framer-motion";
 
 export default function AboutUsSection() {
-  const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: false, amount: 0.1 });
@@ -45,10 +43,6 @@ export default function AboutUsSection() {
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 50]);
   const rotate1 = useTransform(scrollYProgress, [0, 1], [0, 20]);
   const rotate2 = useTransform(scrollYProgress, [0, 1], [0, -20]);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -66,7 +60,7 @@ export default function AboutUsSection() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.6, ease: "easeOut" as const },
     },
   };
 
@@ -407,14 +401,7 @@ interface ServiceItemProps {
   secondaryIcon?: React.ReactNode;
   title: string;
   description: string;
-  variants: {
-    hidden: { opacity: number; y?: number };
-    visible: {
-      opacity: number;
-      y?: number;
-      transition: { duration: number; ease: string };
-    };
-  };
+  variants: any;
   delay: number;
   direction: "left" | "right";
 }
