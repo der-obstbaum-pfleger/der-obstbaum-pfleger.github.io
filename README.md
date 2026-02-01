@@ -4,7 +4,7 @@ Professionelle Website für Obstbaumpflege-Dienstleistungen von Günter Büttner
 
 ## 🌳 Über das Projekt
 
-Diese moderne, responsive Website präsentiert die Dienstleistungen von "Der Obstbaum Pfleger" - einem erfahrenen Experten für Obstbaumpflege mit über 30 Jahren Erfahrung.
+Diese moderne, responsive Website präsentiert die Dienstleistungen von "Der Obstbaum Pfleger" - einem erfahrenen Experten für Obstbaumpflege mit über 15 Jahren Erfahrung.
 
 ## 🚀 Technologie-Stack
 

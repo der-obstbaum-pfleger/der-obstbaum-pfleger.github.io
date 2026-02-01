@@ -128,7 +128,7 @@ function App() {
             {/* Left Column - Text */}
             <div>
               <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-sm font-medium mb-6">
-                Professionelle Obstbaumpflege seit über 30 Jahren
+                Professionelle Obstbaumpflege seit über 15 Jahren
               </div>
               <h1 className="text-5xl md:text-6xl font-light text-primary mb-6 leading-tight">
                 Gesunde Bäume,
@@ -170,7 +170,7 @@ function App() {
               </div>
               {/* Floating Stats */}
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-4xl font-bold text-secondary">30+</div>
+                <div className="text-4xl font-bold text-secondary">15+</div>
                 <div className="text-sm text-primary/70">Jahre Erfahrung</div>
               </div>
               <div className="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
@@ -287,7 +287,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-1 gap-12">
             {/* Contact Info */}
             <div className="space-y-6">
               <div>
@@ -296,12 +296,12 @@ function App() {
                 </h3>
                 <p className="text-primary/70 mb-8">
                   Ihr zuverlässiger Partner für professionelle Obstbaumpflege in
-                  der Region. Mit über 30 Jahren Erfahrung garantiere ich
+                  der Region. Mit über 15 Jahren Erfahrung garantiere ich
                   fachgerechte Arbeit und persönliche Beratung.
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 grid grid-cols-1 md:grid-cols-2">
                 <div className="flex items-start gap-4">
                   <div className="bg-secondary/10 p-3 rounded-lg">
                     <Phone className="w-5 h-5 text-secondary" />
@@ -312,7 +312,7 @@ function App() {
                       href="tel:+49123456789"
                       className="text-secondary hover:underline"
                     >
-                      +49 (0) 123 456789
+                      +49 (0) 173 9292 580
                     </a>
                   </div>
                 </div>
@@ -331,22 +331,6 @@ function App() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="bg-secondary/10 p-3 rounded-lg">
-                    <MapPin className="w-5 h-5 text-secondary" />
-                  </div>
-                  <div>
-                    <div className="font-medium text-primary">
-                      Einsatzgebiet
-                    </div>
-                    <p className="text-primary/70">
-                      Ihre Region und Umgebung
-                      <br />
-                      Deutschland
-                    </p>
-                  </div>
-                </div>
               </div>
 
               <div className="bg-secondary/5 p-6 rounded-xl mt-8">
@@ -355,14 +339,12 @@ function App() {
                 </h4>
                 <div className="space-y-1 text-primary/70">
                   <p>Montag - Freitag: 7:00 - 18:00 Uhr</p>
-                  <p>Samstag: 8:00 - 14:00 Uhr</p>
-                  <p>Sonntag: Nach Vereinbarung</p>
                 </div>
               </div>
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white p-8 rounded-xl shadow-lg">
+            {/* <div className="bg-white p-8 rounded-xl shadow-lg">
               <h3 className="text-xl font-semibold text-primary mb-6">
                 Anfrage senden
               </h3>
@@ -422,7 +404,7 @@ function App() {
                   nicht an Dritte weitergegeben.
                 </p>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -440,7 +422,7 @@ function App() {
                 />
               </div>
               <p className="text-white/70 text-sm">
-                Professionelle Obstbaumpflege mit über 30 Jahren Erfahrung. Ihr
+                Professionelle Obstbaumpflege mit über 15 Jahren Erfahrung. Ihr
                 vertrauensvoller Partner für gesunde, ertragreiche Bäume.
               </p>
             </div>
@@ -487,7 +469,7 @@ function App() {
               <h4 className="font-semibold mb-4">Kontakt</h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>Günter Büttner</li>
-                <li>Tel: +49 (0) 123 456789</li>
+                <li>Tel: +49 (0) 173 9292 580</li>
                 <li>info@obstbaum-pfleger.de</li>
               </ul>
             </div>

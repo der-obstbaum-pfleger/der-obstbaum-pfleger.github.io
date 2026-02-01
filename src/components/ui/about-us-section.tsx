@@ -128,19 +128,13 @@ export default function AboutUsSection() {
   ];
 
   const stats = [
-    { icon: <Award />, value: 30, label: "Jahre Erfahrung", suffix: "+" },
+    { icon: <Award />, value: 15, label: "Jahre Erfahrung", suffix: "+" },
     { icon: <Users />, value: 500, label: "Zufriedene Kunden", suffix: "+" },
     {
       icon: <TreeDeciduous />,
       value: 2000,
       label: "Gepflegte Bäume",
       suffix: "+",
-    },
-    {
-      icon: <TrendingUp />,
-      value: 98,
-      label: "Kundenzufriedenheit",
-      suffix: "%",
     },
   ];
 
@@ -219,7 +213,7 @@ export default function AboutUsSection() {
           className="text-center max-w-2xl mx-auto mb-16 text-primary/80"
           variants={itemVariants}
         >
-          Mit über 30 Jahren Erfahrung in der professionellen Obstbaumpflege
+          Mit über 15 Jahren Erfahrung in der professionellen Obstbaumpflege
           kümmern wir uns mit Leidenschaft und Fachwissen um Ihre wertvollen
           Bäume. Von der Neupflanzung bis zur regelmäßigen Pflege – wir sind Ihr
           verlässlicher Partner für gesunde, ertragreiche Obstbäume.
@@ -351,7 +345,7 @@ export default function AboutUsSection() {
         {/* Stats Section */}
         <motion.div
           ref={statsRef}
-          className="mt-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="mt-24 grid grid-cols-1 sm:grid-cols-3 gap-8"
           initial="hidden"
           animate={isStatsInView ? "visible" : "hidden"}
           variants={containerVariants}
