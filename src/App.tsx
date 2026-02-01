@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone, Mail, MapPin } from "lucide-react";
+import { Menu, X, Phone, Mail } from "lucide-react";
 import AboutUsSection from "./components/ui/about-us-section";
 
 function App() {
@@ -162,7 +162,7 @@ function App() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&auto=format&fit=crop"
+                  src="/zwetschgen_ernte.jpg"
                   alt="Obstbaumpflege"
                   className="w-full h-auto object-cover"
                 />
@@ -205,43 +205,37 @@ function App() {
                 title: "Winterschnitt",
                 description:
                   "Fachgerechter Schnitt in der Vegetationsruhe für optimalen Fruchtansatz und gesundes Wachstum.",
-                image:
-                  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&auto=format&fit=crop",
+                image: "/winterschnitt.jpg",
               },
               {
                 title: "Sommerschnitt",
                 description:
                   "Korrektur und Auslichtung während der Vegetationsperiode für bessere Fruchtqualität.",
-                image:
-                  "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400&auto=format&fit=crop",
+                image: "/sommerschnitt.jpg",
               },
               {
                 title: "Jungbaumpflege",
                 description:
                   "Aufbauschnitt und Erziehung junger Bäume für eine stabile, ertragreiche Krone.",
-                image:
-                  "https://images.unsplash.com/photo-1592150621744-aca64f48394a?w=400&auto=format&fit=crop",
+                image: "jungbaum.jpg",
               },
               {
                 title: "Altbaumpflege",
                 description:
                   "Verjüngung und Erhaltung alter Obstbäume mit schonenden Methoden.",
-                image:
-                  "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&auto=format&fit=crop",
+                image: "/altbaumpflege.jpg",
               },
               {
                 title: "Beratung & Planung",
                 description:
                   "Individuelle Beratung zu Sortenwahl, Standort und optimaler Pflege Ihrer Bäume.",
-                image:
-                  "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&auto=format&fit=crop",
+                image: "/beratung.jpg",
               },
               {
-                title: "Notfallservice",
+                title: "Kurse und Schulungen",
                 description:
-                  "Schnelle Hilfe bei Sturmschäden oder akutem Schädlingsbefall.",
-                image:
-                  "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&auto=format&fit=crop",
+                  "Für Strauch- und Obstbaumschnitt. Infos per E-Mail oder telefonisch",
+                image: "/kurse.jpg",
               },
             ].map((service, index) => (
               <div

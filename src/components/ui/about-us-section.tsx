@@ -17,7 +17,6 @@ import {
   Star,
   ArrowRight,
   Zap,
-  TrendingUp,
 } from "lucide-react";
 import {
   motion,
@@ -252,7 +251,7 @@ export default function AboutUsSection() {
                 whileHover={{ scale: 1.03, transition: { duration: 0.3 } }}
               >
                 <img
-                  src="/guenter.jpeg"
+                  src="/guenter_front.jpg"
                   alt="Günter Büttner - Ihr Obstbaumpfleger"
                   className="w-full h-full object-cover"
                 />
