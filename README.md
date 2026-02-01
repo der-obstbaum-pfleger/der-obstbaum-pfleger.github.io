@@ -67,7 +67,7 @@ Die Website wird automatisch auf GitHub Pages deployed, wenn Änderungen in den 
 
 ## 📄 Lizenz
 
-© 2025 Der Obstbaum Pfleger - Günter Büttner. Alle Rechte vorbehalten.
+© 2026 Der Obstbaum Pfleger - Günter Büttner. Alle Rechte vorbehalten.
 
 ## 📧 Kontakt
 

@@ -477,8 +477,8 @@ function App() {
 
           <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
             <p>
-              &copy; 2025 Der Obstbaum Pfleger - Günter Büttner. Alle Rechte
-              vorbehalten.
+              © {new Date().getFullYear()} Der Obstbaum Pfleger - Günter
+              Büttner. Alle Rechte vorbehalten.
             </p>
           </div>
         </div>
