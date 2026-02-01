@@ -324,10 +324,10 @@ function App() {
                   <div>
                     <div className="font-medium text-primary">E-Mail</div>
                     <a
-                      href="mailto:info@obstbaum-pfleger.de"
+                      href="mailto:info@der-obstbaum-pfleger.de"
                       className="text-secondary hover:underline"
                     >
-                      info@obstbaum-pfleger.de
+                      info@der-obstbaum-pfleger.de
                     </a>
                   </div>
                 </div>
@@ -470,7 +470,7 @@ function App() {
               <ul className="space-y-2 text-sm text-white/70">
                 <li>Günter Büttner</li>
                 <li>Tel: +49 (0) 173 9292 580</li>
-                <li>info@obstbaum-pfleger.de</li>
+                <li>info@der-obstbaum-pfleger.de</li>
               </ul>
             </div>
           </div>

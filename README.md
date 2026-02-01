@@ -73,5 +73,5 @@ Die Website wird automatisch auf GitHub Pages deployed, wenn Änderungen in den 
 
 Für Fragen oder Anpassungen kontaktieren Sie:
 
-- **E-Mail**: info@obstbaum-pfleger.de
+- **E-Mail**: info@der-obstbaum-pfleger.de
 - **Tel**: +49 (0) 123 456789
